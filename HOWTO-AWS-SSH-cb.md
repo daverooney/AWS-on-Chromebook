@@ -1,6 +1,6 @@
 ## Chromebook prep
 
-Secure Shell Extension [here](https://chrome.google.com/webstore/detail/secure-shell-extension/iodihamcpbpeioajjeobimgagajmlibd?utm_source=chrome-ntp-icon)
+Install the Secure Shell Extension [here](https://chrome.google.com/webstore/detail/secure-shell-extension/iodihamcpbpeioajjeobimgagajmlibd?utm_source=chrome-ntp-icon)
 
 
 ## AWS prep
@@ -11,6 +11,8 @@ Create Key pair
   - named "CB-SSH" in this example, substitute your own name
   - auto downloads CB-SSH.pem
   - this contains both private and public keys, but we need to do ninja stuff to make them usable
+
+## Key prep
 
 ### Option 1 - AWS Cloud9
 
@@ -107,5 +109,13 @@ launch ssh console
 - for extra credit, put extra SSH Arguments in to do fancy things like tunnelling
 - press Enter button
 - Win!  Happy Hacking!
+
+
+## cleanup
+
+- remove SSH-VPC if created
+- if Cloud9, close tab to get back to environment listing.
+  - select your CB-SSH environment, click Delete
+  - type "Delete" to confirm
 
 
