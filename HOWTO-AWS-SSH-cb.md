@@ -68,7 +68,7 @@ Near top, click Open Bash console here
 lock down permissions on the key:  chmod 600 CB-SSH.pem
 
 use ssh-keygen to export public key only:
-- *ssh-keygen -y -f CB-SSH.pem > CB-SSH.pub
+- *ssh-keygen -y -f CB-SSH.pem > CB-SSH.pub*
 - the "-y" means export public key
 - the "-f" specifies the input key file name
 - the > dumps the results in to the filename provided
