@@ -113,9 +113,11 @@ launch ssh console
 
 ## cleanup
 
-- remove SSH-VPC if created
+- if PythonAnywhere, just log out
 - if Cloud9, close tab to get back to environment listing.
   - select your CB-SSH environment, click Delete
   - type "Delete" to confirm
+- remove SSH-VPC if created and no longer wanted
+- feel free to shutdown or terminate your SSH test target EC2 instance
 
 
