@@ -1,6 +1,6 @@
 ## Chromebook prep
 
-Install the Secure Shell Extension [here](https://chrome.google.com/webstore/detail/secure-shell-extension/iodihamcpbpeioajjeobimgagajmlibd?utm_source=chrome-ntp-icon)
+Install the Secure Shell App [here](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo)
 
 
 ## AWS prep
